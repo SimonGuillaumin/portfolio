@@ -34,7 +34,7 @@ class ThemeSwitcher extends Component {
           
           <div className="dropdown-menu">
           
-            <a className="dropdown-item" href="#" onClick={e => this.chooseTheme('Primary', e)}>Primary Theme</a>
+            <a className="dropdown-item" href="#" onClick={e => this.chooseTheme('Primary', e)}>Theme Principal</a>
             <a className="dropdown-item" href="#" onClick={e => this.chooseTheme('Danger', e)}>Danger Theme</a>
             <a class="dropdown-item" href="#" onClick={e => this.chooseTheme('Success', e)}>Success Theme</a>
             
